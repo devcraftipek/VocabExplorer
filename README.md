@@ -1,5 +1,6 @@
 # VocabExplorer Kelime Kaşifi
 Bu proje, kullanıcıların İngilizce kelime dağarcıklarını yönetmelerini sağlayan bir web uygulamasıdır. Kullanıcılar, yeni kelimeler ekleyebilir, öğrendikleri kelimeleri listeleyebilir, sesli okuma özelliğini kullanabilir ve kelime dağarcıklarını test edebilirler.
+
 **Kullanıcı Girişi:** Kullanıcılar, kişisel kelime dağarcıklarını yönetmek için giriş yapabilirler.
 - **Kelime Ekleme:** Yeni İngilizce kelimeleri ekleyebilirsiniz.
 - **Kelime Listeleme:** Öğrendiğiniz kelimeleri listeleyebilir ve gözden geçirebilirsiniz.
