@@ -1,0 +1,61 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40; 
+}
+
+h1 {
+    color: #0c3159bf; 
+}
+
+.navbar-custom {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+
+.btn-success {
+    background-color: #12852d; 
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #166527; 
+}
+
+.btn-info {
+    background-color: #f1b43b;
+    border-color: #d09622;
+}
+
+.btn-info:hover {
+    background-color: #d69717;
+    border-color: #d79819;
+}
+
+#loginContainer {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff; 
+}
+
+.form-control {
+    margin-bottom: 10px;
+}

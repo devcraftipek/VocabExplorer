@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İngilizce Kelime Ekleme ve Sesli Okuma</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5 text-center">Kelime Ekle Dil Gücünü Artır!</h1>
+        <div id="loginContainer" class="mt-5">
+            <form>
+                <div class="form-group">
+                    <label for="username">Kullanıcı Adı:</label>
+                    <input type="text" id="username" class="form-control" placeholder="Kullanıcı adınızı girin">
+                </div>
+                <div class="form-group">
+                    <button type="button" onclick="login()" class="btn btn-success btn-block">Giriş Yap</button>
+                </div>
+            </form>
+        </div>
+        <div id="appContainer" style="display: none;">
+            <div class="form-container mt-5">
+                <label for="newWord">Yeni Kelime:</label>
+                <input type="text" id="newWord" class="form-control" placeholder="Kelime girin">
+                <label for="newWordTranslation">Türkçe Anlamı:</label>
+                <input type="text" id="newWordTranslation" class="form-control" placeholder="Türkçe anlamını girin">
+                <button onclick="addWord()" class="btn btn-primary mt-3">Ekle</button>
+                <button id="clearButton" onclick="clearWords()" class="btn btn-danger mt-3">Kelimeleri Temizle</button>
+                <div id="wordListContainer" class="mt-4">
+                    <h2>Öğrenilen Kelimeler</h2>
+                    <ul id="wordListUl" class="list-group"></ul>
+                </div>
+                <button id="testButton" onclick="startTest()" class="btn btn-info mt-3">Test Et</button>
+                <button id="readButton" onclick="readWords()" class="btn btn-secondary mt-3">Kelimeleri Sesli Oku</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>
